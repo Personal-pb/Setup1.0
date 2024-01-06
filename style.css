@@ -1,0 +1,45 @@
+.navbar-color {
+    color: black;
+}
+.navbar-text-color {
+    color: black;
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+.container {
+    width: 70%;
+}
+.nav-link:hover {
+    color: yellow;
+}
+.background-imagine {
+    width: 100%;
+}
+.pc {
+   scale: 50%;
+}
+.items {
+    color: black;
+    border: 3px solid grey;
+    border-radius: 0px 30%;
+    padding: 50px;
+}
+.name-pc {
+    text-align: center;
+    padding: 10px;
+}
+.products {
+    border-top: 5px solid grey;
+    padding: 20px;
+}
+@media screen and (max-width: 800px) {
+    .pc {
+      display: none;
+    }
+    .items {
+        margin-bottom: 20px;
+    }
+  }
